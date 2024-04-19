@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Security-Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d4e31e64d775d46379fb26e58a4c97e99b139c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Security-Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Security-Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
