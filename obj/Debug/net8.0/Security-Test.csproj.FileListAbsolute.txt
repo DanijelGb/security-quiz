@@ -1,0 +1,14 @@
+C:\Users\DaciBaci\source\repos\Security-Test\bin\Debug\net8.0\Security-Test.exe
+C:\Users\DaciBaci\source\repos\Security-Test\bin\Debug\net8.0\Security-Test.deps.json
+C:\Users\DaciBaci\source\repos\Security-Test\bin\Debug\net8.0\Security-Test.runtimeconfig.json
+C:\Users\DaciBaci\source\repos\Security-Test\bin\Debug\net8.0\Security-Test.dll
+C:\Users\DaciBaci\source\repos\Security-Test\bin\Debug\net8.0\Security-Test.pdb
+C:\Users\DaciBaci\source\repos\Security-Test\obj\Debug\net8.0\Security-Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DaciBaci\source\repos\Security-Test\obj\Debug\net8.0\Security-Test.AssemblyInfoInputs.cache
+C:\Users\DaciBaci\source\repos\Security-Test\obj\Debug\net8.0\Security-Test.AssemblyInfo.cs
+C:\Users\DaciBaci\source\repos\Security-Test\obj\Debug\net8.0\Security-Test.csproj.CoreCompileInputs.cache
+C:\Users\DaciBaci\source\repos\Security-Test\obj\Debug\net8.0\Security-Test.dll
+C:\Users\DaciBaci\source\repos\Security-Test\obj\Debug\net8.0\refint\Security-Test.dll
+C:\Users\DaciBaci\source\repos\Security-Test\obj\Debug\net8.0\Security-Test.pdb
+C:\Users\DaciBaci\source\repos\Security-Test\obj\Debug\net8.0\Security-Test.genruntimeconfig.cache
+C:\Users\DaciBaci\source\repos\Security-Test\obj\Debug\net8.0\ref\Security-Test.dll
