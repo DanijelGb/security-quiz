@@ -6,9 +6,9 @@ using System;
 using System.Reflection;
 
 string dhcp = @"
-DHCP är ett nätverks distribitions protokoll som automatiskt ger ut nya
-ip adresser på ett dynamiskt sätt. Dessa ip adresser inkludera Subnet Mask, Default Gateway
-DNS-Servers och mera. DHCP leasar IP adresser till en enhet till en begränsad mängd tid.
+DHCP(Dynamic Host Configuration Protocol) är ett nätverks distribitions protokoll som automatiskt 
+ger ut nya ip adresser på ett dynamiskt sätt. Dessa ip adresser inkludera Subnet Mask, Default 
+Gateway DNS-Servers och mera. DHCP leasar IP adresser till en enhet till en begränsad mängd tid.
 När denna tid går ut så måste enheten få en ny lease och ett nytt tillgängligt IP ifrån DHCP.
 funktionen blir att en ip adress inte går försvunnen hos en oanvänd enhet och på så sätt så
 finns det inte lika många IP adresser att välja mellan.
@@ -54,7 +54,7 @@ om dessa nätverken som slutar på .com. Äntligen får Resolver Servern sin IP 
 spara denna IP adressen i sin cache så att den slipper göra om hela processen igen för denna IPn.
 ";
 
-string segementering = @"
+string segmentering = @"
 Segmentering av nät betyder att man delar upp ett nätverk till flera seperata nätverk. Detta kan man
 göra genom att använda flera switchar/routrar eller så kan man göra det på samma switch/router med flera
 VLAN(Virtual Local Area Network). Detta gör alla nätverken simplare, det lättar på hårdvaran av 
@@ -80,15 +80,16 @@ för att klienten ska bekräfta att denne också har fått meddelandet. Det gör
 över en sista ACK. Nu kan båda parterna skicka meddelande till varandra.";
 
 string udp = @"
-UDP är liknande till TCP på sättet att det är ett protokoll som skickar data. UDP garanterar
+UDP(User Diagram Protocol) är liknande till TCP på sättet att det är ett protokoll som skickar data. UDP garanterar
 dock inte att datan kommer fram, den är sessionless (Fire and Forget) vilket gör den snabbare
 än TCP och mer användbar i situationer var det prioriteras.";
 
-
 string hash = @"
-Hash är en förkortning av en mycket större sträng. Det fungerar ungefär som ett DNA på grund
-av att den innehåller jätte mycket information komprimerat till en liten bit. Man dekrypterar
-hashen med hjälp av en algoritm, och detta beror på hur man hashat.";
+En hash är en string av bokstäver och tecken som representerar en annan text. Det är typ som en
+kryptering förutom att man kan aldrig dekryptera en hash. Det är en one way street. En hash är 
+alltid lika lång oavsett datan den representerar/skyddar. Det finns flera hashnings metoder dock
+som har olika längder. Det kan aldrig finnas två likadana hash om inte dem representerar exakt 
+samma text. Man hashar oftast lösenord.";
 
 string åttahundraettx = @"
 802.1X är en standard som finns på routrar och switchar till exempel. Standardens jobb är
@@ -288,7 +289,7 @@ Dictionary<string, string> quiz = new Dictionary<string, string>
     { "Berätta vad symmetrisk Kryptering är", symmetriskKryptering},
     { "Berätta vad osymmetrisk Kryptering är", osymmetriskKryptering},
     { "Berätta vilka brandväggstyper som finns och skriv lite om dem", brandväggsTyper},
-    { "Berätta vad stateful och stateless innebär", https},
+    { "Berätta vad stateful och stateless innebär", states},
     { "Berätta vad DPI är", dpi},
     { "Berätta vad ett SCADA system är", scadaSystem},
     { "Berätta vad DMZ är", dmz},
@@ -297,6 +298,9 @@ Dictionary<string, string> quiz = new Dictionary<string, string>
     { "Berätta vad en hub är", hub},
     { "Berätta vad switch är", switchh},
     { "Berätta vad en proxy server är", proxy},
+    { "Berätta vad en sandbox i en brandvägg är", brandväggSandb},
+    { "Berätta vad segmentering är och vad som är bra med det", segmentering},
+
 };
 
 System.Random random = new();

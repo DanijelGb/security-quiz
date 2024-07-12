@@ -12,3 +12,4 @@ C:\Users\DaciBaci\source\repos\Security-Test\obj\Debug\net8.0\refint\Security-Te
 C:\Users\DaciBaci\source\repos\Security-Test\obj\Debug\net8.0\Security-Test.pdb
 C:\Users\DaciBaci\source\repos\Security-Test\obj\Debug\net8.0\Security-Test.genruntimeconfig.cache
 C:\Users\DaciBaci\source\repos\Security-Test\obj\Debug\net8.0\ref\Security-Test.dll
+C:\Users\DaciBaci\source\repos\Security-Test\obj\Debug\net8.0\Security-Test.sourcelink.json
